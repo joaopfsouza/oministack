@@ -31,3 +31,37 @@
    text-align: left;
    border-radius: 0 0 5px 5px;
 }
+
+.main-container ul li footer strong{
+   font-size: 16px;
+   color: #333333;
+
+ }
+
+ .main-container ul li footer p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    margin-top: 5px;
+    
+  }
+
+
+ .main-container ul li .buttons{
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    
+  }
+
+  .main-container ul li .buttons button{
+   height: 50px;
+   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.05);
+   border: 0;
+   border-radius: 4px;
+   background: #fff;
+   cursor: pointer;
+    
+  }
+ 
